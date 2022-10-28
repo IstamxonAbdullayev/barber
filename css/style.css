@@ -1,0 +1,356 @@
+body{
+    background-color: #beabab;
+  }
+  
+  /* head CSS*/
+  
+  .container{
+    width: 1300px;
+    margin: 0 auto;
+    background-color: white;
+  }
+  
+  nav{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  .nav-img{
+    margin-left: 40px;
+  }
+  
+  .nav-item{
+    list-style: none;
+    display: flex;
+    flex-flow: row wrap;
+    width: 448px;
+    height: 138px;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    font-size: 25px;
+    line-height: 33px;
+    color: #163561;
+    font-weight: 600;
+  }
+  
+  .nav-list{
+    cursor: pointer;
+    font-family: 'Catamaran', sans-serif;
+  }
+  
+  .user{
+    width: 416px;
+    height: 93px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .icon:hover{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+  }
+  
+  .nav-btn{
+    width: 188px;
+    height: 76px;
+    background-color: #99BAED;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    box-shadow: -5px 10px 15px #b2c9ec;
+    text-decoration: none;
+    text-align: center;
+    line-height: 76px;
+    font-size: 20px;
+    font-family: 'Catamaran', sans-serif;
+    font-weight: 500;
+  }
+  
+  /* inside CSS */
+  
+  .inside-block{
+    display: flex;
+  }
+  
+  .inside-title{
+    cursor: default;
+    font-family: 'Catamaran', sans-serif;
+    line-height: 65px;
+    font-size: 50px;
+    width: 430px;
+    height: 114px;
+    margin-left: 40px;
+    color: #163561;
+  }
+  
+  .inside-text{
+    cursor: default;
+    font-family: 'Catamaran', sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    width: 460px;
+    height: 114px;
+    margin-top: 130px;
+    margin-left: 40px;
+    color: #153461;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    opacity: 0.65;
+  }
+  
+  .inside-link{
+    width: 188px;
+    height: 76px;
+    background-color: #99BAED;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    box-shadow: -5px 10px 15px #b2c9ec;
+    text-decoration: none;
+    text-align: center;
+    line-height: 76px;
+    font-size: 20px;
+    font-family: 'Catamaran', sans-serif;
+    font-weight: 500;
+    text-align: center;
+    margin-left: -140px;
+  }
+  
+  /* history CSS */
+  
+  .history-block{
+    display: flex;
+  }
+  
+  .history-title{
+    cursor: default;
+    font-family: 'Catamaran', sans-serif;
+    line-height: 65px;
+    font-size: 45px;
+    width: 377px;
+    height: 105px;
+    margin-left: 40px;
+    color: #163561;
+    margin-left: 100px;
+  }
+  
+  .history-des{
+    cursor: default;
+    width: 450px;
+    height: 114px;
+    color: #153461;
+    font-size: 22px;
+    font-family: 'Catamaran', sans-serif;
+    line-height: 30px;
+    opacity: 0.65;
+    letter-spacing: 0.03em;
+    margin-left: 100px;
+  }
+  .history-text{
+    cursor: default;
+    width: 450px;
+    height: 114px;
+    color: #153461;
+    font-size: 22px;
+    font-family: 'Catamaran', sans-serif;
+    line-height: 30px;
+    opacity: 0.65;
+    letter-spacing: 0.03em;
+    margin-left: 100px;
+  }
+  
+  .history-user{
+    display: flex;
+  }
+  
+  .history-link{
+    position: absolute;
+    width: 188px;
+    height: 76px;
+    background-color: #99BAED;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    box-shadow: -5px 10px 15px #b2c9ec;
+    text-decoration: none;
+    text-align: center;
+    line-height: 76px;
+    font-size: 20px;
+    font-family: 'Catamaran', sans-serif;
+    font-weight: 500;
+    text-align: center;
+    margin-left: 750px;
+    margin-top: -100px;
+  }
+  
+  /* provide CSS */
+  
+  .provide-box{
+    display: flex;
+  }
+  
+  .provide-head{
+    cursor:default;
+    position: relative;
+    text-align: center;
+    left: 370px;
+    display: inline-block;
+    width: 357px;
+    height: 164px;
+    margin-left: 100px;
+    font-size: 45px;
+    font-family: 'Catamaran', sans-serif;
+    line-height: 65px;
+    color: #163561;
+  }
+  
+  .provide-case{
+    cursor: pointer;
+    background-color: #FAFBFF;
+    width: 350px;
+    height: 400px;
+    margin-left: 60px;
+    border-radius: 29px;
+  }
+  
+  .provide-img{
+    position: absolute;
+    margin-left: 135px;
+    margin-top: 50px;
+    width: 90px;
+    height: 100px;
+  }
+  
+  .provide-title{
+    position: relative;
+    top: 180px;
+    text-align: center;
+    width: 169px;
+    height: 52px;
+    margin: 0 auto;
+    font-size: 30px;
+    font-family: 'Catamaran', sans-serif;
+    color: #163561;
+    align-items: center;
+  }
+  
+  .provide-text{
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+    width: 300px;
+    height: 114px;
+    font-size: 20px;
+    font-family: 'Catamaran', sans-serif;
+    line-height: 30px;
+    opacity: 0.65;
+    letter-spacing: 0.03em;
+    font-weight: 500;
+    margin-top: 200px;
+  }
+  
+  /* gallary CSS */
+  
+  .gallary-block{
+    display: inline-block;
+  }
+  
+  .gallary-box{
+    display: flex;
+  }
+  
+  .gallary-title{
+    position: relative;
+    width: 367px;
+    height: 82px;
+    font-size: 50px;
+    font-family: 'Catamaran', sans-serif;
+    color: #163561;
+    margin-left: 520px;
+    margin-top: 250px;
+  }
+  
+  .gallary-item{
+    list-style: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    margin-left: -40px;
+    opacity: 0.35;
+    margin-top: 100px;
+  }
+  
+  .gallary-img{
+    width: 380px;
+    height: 380px;
+  }
+  
+  .gallary-link{
+    width: 188px;
+    height: 75px;
+    background-color: #99BAED;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    box-shadow: -5px 10px 15px #b2c9ec;
+    text-decoration: none;
+    text-align: center;
+    line-height: 76px;
+    font-size: 20px;
+    font-family: 'Catamaran', sans-serif;
+    font-weight: 500;
+    text-align: center;
+    margin-left: -140px;
+    margin: 0 auto;
+    margin-top: 45px;
+  }
+  
+  /* footer */
+  
+  .end-block{
+    display: flex;
+  }
+  
+  .end-box{
+    margin-top: 300px;
+    margin-left: 550px;
+  }
+  
+  .footer-icon{
+    position: absolute;
+    margin-left: -40px;
+    margin-top: -200px;
+  }
+  
+  .end-text{
+    width: 426px;
+    height: 76px;
+    font-size: 22px;
+    font-family: 'Catamaran', sans-serif;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-left: -100px;
+    color: #153461;
+  }
+  
+  .end-line{
+    margin: 0 auto;
+    margin-top: 100px;
+    width: 1000px;
+    border: 1px solid #99BAED;
+    opacity: 0.35;
+  }
+  
+  /* Дополнительный фон */
+  
+  .block{
+    width: 600px;
+    height: 100px;
+    display: flex;
+    background-color: white;
+  }
